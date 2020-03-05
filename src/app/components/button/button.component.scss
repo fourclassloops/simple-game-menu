@@ -1,0 +1,28 @@
+
+.fcl-btn {
+    // width: 200px;
+    padding: 5px 35px 5px 75px;
+    margin: 10px 0px;
+    background-color: #000000;
+    cursor: pointer;
+    transform: skew(20deg);
+    color: #ffffff;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-family: 'Trade Winds';
+    font-size: 24px;
+    opacity: 0.7;
+
+    &__lbl {
+        transform: skew(-20deg);
+    }
+      
+    &:hover {
+        // width: 250px;
+        background: radial-gradient(circle at 0px 0px, #FFC371 0%, #FF5F6D 100%);
+        
+        .fcl-btn__lbl {
+          color: #000000;
+        }
+    }
+}

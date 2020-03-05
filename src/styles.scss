@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
+
+@import '~animate.css/animate.min';
+
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/dove-217c8.appspot.com/o/imgs%2Fbg1.png?alt=media&token=638568b7-378f-4746-8308-f667b78a7aa7");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+}
